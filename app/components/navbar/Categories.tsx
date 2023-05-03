@@ -114,6 +114,7 @@ const Categories = () => {
             label={item.label}
             selected={category === item.label}
             icon={item.icon}
+            description="je"
           />
         ))}
       </div>
